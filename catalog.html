@@ -6,7 +6,9 @@
   </head>
   <body>
     <header class="page-header">
-      <img class="logo" src="#" alt="Логотип города Седона">
+      <a class="logotipe" href="index.html">
+        <img class="logo" src="#" alt="Логотип города Седона">
+      </a>
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -33,7 +35,9 @@
             </span>
           </li>
         </ul>
-        <button class="button" type="submit">Хочу сюда!</button>
+        <a class="button">
+          <span class="button-title">Хочу сюда!</span>
+        </a>
       </nav>
     </header>
     <main class="main-inner">
@@ -90,6 +94,10 @@
           Стоимость до
         </label>
         </form>
+        <div class="choice-price-slider">
+          <button class="button visually-hidden" type="submit" >Стоимость от</button>
+          <button class="button visually-hidden" type="submit"> Стоимость до</button>
+        </div>
         <button class="button" type="submit">Применить</button>
         <button class="button" type="submit">Сбросить</button>
     </section>
@@ -157,6 +165,7 @@
           <img class="hotel-rating-image" src="" alt="2 звезды">
           <span class="hotel-rating">Рейтинг:5,0</span>
         </li>
+      </ul>
 
         <ul class="pagination">
           <li class="pagination-item">
@@ -190,6 +199,7 @@
           <input class="amount-hotels" type="text" placeholder="4">
         </form>
     </section>
+    </main>
     <section class="subscription-inner">
       <h3 class="subscription-inner-title">Подпишитесь на рассылку</h3>
       <p class="subscription-inner-description">Только полезная информация и никакого спама, честное бойскаутское!
@@ -226,7 +236,6 @@
         academy</a>
       </section>
     </footer>
-
   </body>
 </html>
 
