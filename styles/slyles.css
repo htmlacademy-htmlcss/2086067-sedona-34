@@ -34,6 +34,7 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
+  font-weight: 400;
   background-color: #FFFFFF;
   color: black;
 
@@ -68,6 +69,7 @@ body {
 .header-title {
   font-size: 30px;
   line-height: 36px;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
 }
@@ -78,6 +80,15 @@ body {
   text-align: center;
 }
 
+.button-title {
+  background-color: #756157;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+
+
+}
 .reason-one {
  background-color: #82B3D3;
  color: #FFFFFF;
@@ -87,6 +98,7 @@ body {
 .reason-title {
   font-size: 24px;
   line-height: 28px;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
 }
@@ -94,6 +106,7 @@ body {
 .side-title{
   font-size: 24px;
   line-height: 28px;
+  font-weight: 700;
   text-transform: uppercase;
 
 }
@@ -114,6 +127,7 @@ body {
 .search-hotel-question {
   font-size: 30px;
   line-height: 36px;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -126,6 +140,7 @@ body {
 .search-hotel-button {
   font-size: 20px;
   line-height: 36px;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -137,6 +152,7 @@ body {
 .subscription-title {
   font-size: 30px;
   line-height: 36px;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -148,9 +164,15 @@ body {
 .subscription-form .button {
   font-size: 20px;
   line-height: 36px;
+  font-weight: 700;
   text-transform: uppercase;
   color: #FFFFFF;
   background-color: #82B3D3;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.subscription-form input {
+  background-color: #F2F2F2;
   border-radius: 0px 10px 10px 0px;
 }
 
@@ -169,4 +191,144 @@ body {
   text-transform: uppercase;
   color: #000000;
   text-decoration: none;
+}
+
+.page-footer a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.common-filter {
+  background-image: url("../images/background-inner.jpg");
+  background-size: 100% auto;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-color: blue;
+  color: white;
+
+}
+
+.inner-header-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.choice-hotels h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: capitalize;
+}
+
+.button-another button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #82B3D3;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+
+.without-background button {
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  background: inherit;
+}
+
+.catalog-hotel-search {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.hotel-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-align: left;
+
+}
+
+.hotel-card a {
+  text-decoration: none;
+}
+
+.hotel-card-price {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+}
+
+.hotel-card-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #756157;
+  border-radius: 4px;
+}
+
+.button-another button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  border-radius: 4px;
+}
+
+.hotel-rating button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+}
+
+.subscription-inner-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.subscription-inner-description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.subscription-inner button {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.subscription-inner-form input {
+  background-color: #F2F2F2;
+  border-radius: 0px 10px 10px 0px;
 }
