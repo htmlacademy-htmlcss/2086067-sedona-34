@@ -45,8 +45,14 @@ body {
   font-weight: 400;
   background-color: #FFFFFF;
   color: black;
+}
+
+
+* {
+  outline: 3px solid red;
 
 }
+
 
 .main-container {
   flex-grow: 1;
@@ -73,6 +79,7 @@ body {
 
 .navigation {
   display: flex;
+  width: 961;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
@@ -86,27 +93,22 @@ body {
   display: flex;
   justify-content: space-around;
   width: 390px;
-  margin-left: 0px;
-  margin-right: 237px;
+  margin: 0;
   padding: 0;
 }
 
 .wrap-navigation-user {
   display: flex;
   justify-content: space-around;
-  width: 264px;
-  margin-left: auto;
-  margin-right: 70px;
+  width: 601px;
+  margin: 0;
+
 }
 
-/*
-.navigation-user {
-  display: flex;
-  max-width: 264px;
-  margin-left: auto;
-  margin-right: 70px;
+.button-navigation-user {
+  display: block;
+  width: 160px;
 }
-*/
 
 .navigation a {
   color: #000000;
@@ -172,7 +174,13 @@ body {
 
 .side-item {
   width: 400px;
-  height: 384px;
+  min-height: 384px;
+  margin: 0;
+}
+
+.reason-one-and-img {
+  display: flex;
+  width: 1200;
   margin: 0;
 }
 
@@ -180,12 +188,13 @@ body {
  background-color: #82B3D3;
  color: #FFFFFF;
  width: 400px;
- height: 384px;
+ min-height: 384px;
  margin: 0;
 
 }
 
-.house-with-balcon {
+.img-house-with-balcon {
+  display: block;
   width: 800px;
   margin: 0;
 }
@@ -197,6 +206,14 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+
+.reason-two-and-img {
+  display: flex;
+  width: 1200;
+  margin: 0;
+}
+
+
 
 .side-title{
   font-size: 24px;
@@ -210,16 +227,24 @@ body {
   background-color: #82B3D3;
   color: #FFFFFF;
   width: 400px;
-  height: 384px;
+  min-height: 384px;
   margin: 0;
 }
 
-.background-grey {
-  background-color: rgba(131, 179, 211, 0.12);
+.img-devil-bridge {
+  display: block;
+  width: 800px;
+  margin: 0;
 }
 
-.background-lightgrey {
+.background-beautiful-road {
   background-color: rgba(131, 179, 211, 0.12);
+  min-height: 384px;
+}
+
+.background-little-place, .background-few-tourists {
+  background-color: rgba(131, 179, 211, 0.12);
+  min-height: 384px;
 }
 
 .search-hotel-question {
@@ -292,20 +317,25 @@ body {
   margin: 0 auto;
 }
 
+.footer-social {
+  display: flex;
+  width: 1200px;
+}
+
 .footer-social-list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: nowrap;
-  width: 50px;
-  margin-left: 70px;
-  margin-right: 250px;
+  width: 400px;
+  margin: 0;
   padding: 0;
 }
 
 .footer-contacts-phone {
-  display: flex;
-  max-width: 331px;
+  display: block;
+  width: 400px;
+  margin: 0;
   font-size: 40px;
   line-height: 40px;
   text-transform: uppercase;
@@ -316,6 +346,12 @@ body {
 .page-footer a {
   color: #000000;
   text-decoration: none;
+}
+
+.htmlacademy-link {
+  display: block;
+  width: 400px;
+  margin: 0;
 }
 
 .common-filter {
@@ -383,6 +419,26 @@ body {
   text-transform: uppercase;
 }
 
+.hotel-list {
+  display: flex;
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.hotel-card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  min-height: 211px;
+  margin: 0;
+  padding: 0;
+
+}
+
 .hotel-card-title {
   font-weight: 700;
   font-size: 24px;
@@ -438,12 +494,37 @@ body {
   border-radius: 4px;
 }
 
+.pagination-and-number-hotels-page {
+  display: flex;
+  width: 1200px;
+}
+
+.pagination {
+  display: flex;
+  width: 600px;
+  flex-direction: row;
+
+}
+
+.number-hotels-page {
+  display: block;
+  width: 600px;
+}
+
 .subscription-inner-title {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
+}
+
+.subscription-inner {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .subscription-inner-description {
@@ -454,6 +535,7 @@ body {
 }
 
 .subscription-inner button {
+  display: block;
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
@@ -464,6 +546,7 @@ body {
 }
 
 .subscription-inner-form input {
+  display: block;
   background-color: #F2F2F2;
   border-radius: 0px 10px 10px 0px;
 }
