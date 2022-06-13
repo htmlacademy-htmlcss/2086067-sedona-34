@@ -43,7 +43,9 @@
         </a>
       </nav>
     </header>
-    <main class="main-inner">
+    <main class="main-container main-inner">
+      <div class="page-container">
+      <div class="common-filter">
       <header class="inner-header">
       <h1 class="inner-header-title">Гостиницы Седоны</h1>
       <ul class="breadcrumbs">
@@ -103,9 +105,14 @@
           <button class="button visually-hidden" type="submit" >Стоимость от</button>
           <button class="button visually-hidden" type="submit"> Стоимость до</button>
         </div>
+        <div class="button-another">
         <button class="button" type="submit">Применить</button>
+      </div>
+        <div class="without-background">
         <button class="button" type="submit">Сбросить</button>
+      </div>
     </section>
+    </div>
     <section class="catalog-hotel">
       <h2 class="catalog-hotel-search">Найдено гостиниц: 38</h2>
       <select class="select-control" aria-label="Сортировка">
@@ -134,9 +141,10 @@
           <span class="hotel-card-type">Гостиница</span>
           <b class="hotel-card-price">От 4000 ₽</b>
           <a class="hotel-card-button button" href="#">подробнее</a>
-          <button class="button" type="submit">в избранное</button>
+          <div class="button-another">
+          <button class="button" type="submit">в избранное</button></div>
           <img class="hotel-rating-image" src="images/four-stars.svg" width="140" height="37" alt="4 звезды">
-          <span class="hotel-rating">Рейтинг:8,5</span>
+          <span class="hotel-rating"><button class="button" type="submit">Рейтинг:8,5</button></span>
         </li>
         <li class="hotel-card">
           <a class="hotel-card-link" href="#">
@@ -147,11 +155,12 @@
           <span class="hotel-card-type">Гостиница</span>
           <b class="hotel-card-price">От 5000 ₽</b>
           <a class="hotel-card-button button" href="#">подробнее</a>
-          <button class="button" type="submit">в избранном</button>
+          <div class="button-another">
+          <button class="button" type="submit">в избранном</button></div>
           <img class="hotel-rating-image" src="images/four-stars.svg" width="140" height="37" alt="4 звезды">
-          <span class="hotel-rating">Рейтинг:9,2</span>
+          <span class="hotel-rating"><button class="button" type="submit">Рейтинг:9,2</button></span>
         </li>
-        <li class="hotel-card">
+        <div class="hotel-card">
           <a class="hotel-card-link" href="#">
             <img class="hotel-card-image" src="images/hotel-desert-quail-inn.jpg" width="300" height="211"
              alt="Горы на фоне голубого неба">
@@ -160,9 +169,10 @@
           <span class="hotel-card-type">Гостиница</span>
           <b class="hotel-card-price">От 2500 ₽</b>
           <a class="hotel-card-button button" href="#">подробнее</a>
-          <button class="button" type="submit">в избранное</button>
+          <div class="button-another">
+          <button class="button" type="submit">в избранное</button></div>
           <img class="hotel-rating-image" src="images/three-stars.svg" width="140" height="37" alt="3 звезды">
-          <span class="hotel-rating">Рейтинг:6,9</span>
+          <span class="hotel-rating"><button class="button" type="submit">Рейтинг:6,9</button></span>
         </li>
         <li class="hotel-card">
           <a class="hotel-card-link" href="#">
@@ -173,12 +183,13 @@
           <span class="hotel-card-type">Гостиница</span>
           <b class="hotel-card-price">От 1500 ₽</b>
           <a class="hotel-card-button button" href="#">подробнее</a>
-          <button class="button" type="submit">в избранное</button>
+          <div class="button-another">
+          <button class="button" type="submit">в избранное</button></div>
           <img class="hotel-rating-image" src="images/two-stars.svg" width="140" height="37" alt="2 звезды">
-          <span class="hotel-rating">Рейтинг:5,0</span>
+          <span class="hotel-rating"><button class="button" type="submit">Рейтинг:5,0</button></span>
         </li>
       </ul>
-
+      <div class="pagination-and-number-hotels-page">
         <ul class="pagination">
           <li class="pagination-item">
             <a class="pagination-link pagination-prev pagination-disabled">
@@ -210,7 +221,9 @@
           <label class="hotels-page">Гостиниц на странице:</label>
           <input class="amount-hotels" type="text" placeholder="4">
         </form>
-    </section>
+      </div>
+      </section>
+     </div>
     </main>
     <section class="subscription-inner">
       <h3 class="subscription-inner-title">Подпишитесь на рассылку</h3>
@@ -224,6 +237,7 @@
       </form>
     </section>
     <footer class="page-footer">
+      <div class="page-footer-container">
       <section class="footer-social">
         <h2 class="visually-hidden">Наши страницы в социальных сетях</h2>
         <ul class="footer-social-list">
@@ -250,6 +264,7 @@
         <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html
         academy</a>
       </section>
+     </div>
     </footer>
   </body>
 </html>
