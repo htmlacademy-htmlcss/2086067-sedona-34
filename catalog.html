@@ -11,7 +11,7 @@
         <img class="logo" src="images/logo.png" width="64" height="36" alt="Логотип города Седона">
       </a>
       <nav class="navigation">
-        <ul class="navigation-list">
+        <ul class="navigation-list navigation-basic">
           <li class="navigation-item">
             <a class="navigation-link" href="index.html">Главная</a>
           </li>
@@ -31,7 +31,7 @@
               </span>
             </a>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-item favorites">
             <img src="#" alt="#">
             <span class="visually-hidden">
               Избранное
@@ -39,7 +39,7 @@
           </li>
         </ul>
         <a class="button" href="#">
-          <span class="button-title">Хочу сюда!</span>
+          <span class="button-title button-navigation-user">Хочу сюда!</span>
         </a>
       </nav>
     </header>
@@ -50,16 +50,16 @@
       <h1 class="inner-header-title">Гостиницы Седоны</h1>
       <ul class="breadcrumbs">
         <li class="breadcrumbs-item">
-          <a class="breadcrumbs-link" href="index.html"><img class="side-img" src="images/home.svg" width="12"
-             height="12"
-            alt="Дом"></a>
+          <a class="breadcrumbs-link" href="index.html">
+            <img class="side-img img-breadcrumbs-house" src="images/home.svg" width="12" height="12" alt="Дом"></a>
         </li>
         <li class="breadcrumbs-item">
-          <a class="breadcrumbs-link">Гостиницы</a>
+          <a class="breadcrumbs-link breadcrumbs-hotel">Гостиницы</a>
         </li>
       </ul>
     </header>
     <section class="choice-hotels">
+      <div class="choice-infrastructure-common">
       <h2 class="choice-infrastructure">Инфраструктура:</h2>
           <form class="choice-infrastructure-filter">
             <label class="control">
@@ -75,6 +75,7 @@
               Wi-Fi
             </label>
           </form>
+        </div>
       <h2 class="choice-type-houses">Тип Жилья:</h2>
            <form class="choice-type-houses-filter">
             <label class="control">
@@ -119,6 +120,7 @@
         <option value="cheap" selected>Сначала дешёвое</option>
         <option value="expensive">Сначала дорогое</option>
       </select>
+      <div class="show">
       <a href="#" class="button button-light">
         <span class="visually-hidden">Показать таблицей</span>
         <img src="images/icon-table.svg" width="16" height="14" alt="Иконка таблицы">
@@ -131,6 +133,7 @@
         <span class="visually-hidden">Показать список</span>
         <img src="images/icon-list.svg" width="16" height="14" alt="Иконка список">
       </a>
+    </div>
       <ul class="hotel-list">
         <li class="hotel-card">
           <a class="hotel-card-link" href="#">
@@ -227,7 +230,8 @@
     </main>
     <section class="subscription-inner">
       <h3 class="subscription-inner-title">Подпишитесь на рассылку</h3>
-      <p class="subscription-inner-description">Только полезная информация и никакого спама, честное бойскаутское!
+      <p class="subscription-inner-description">Только полезная информация и никакого спама,<br>
+        честное бойскаутское!
       </p>
       <form class="subscription-inner-form" action="https://echo.htmlacademy.ru/" method="post">
           <label class="form-inner-label">
@@ -242,19 +246,19 @@
         <h2 class="visually-hidden">Наши страницы в социальных сетях</h2>
         <ul class="footer-social-list">
           <li class="footer-social-item">
-            <a class="button" href="#">
+            <a class="button button-vkontacte" href="#">
               <span class="visually-hidden">ВКонтакте</span>
               <img src="images/icon-vk.svg" width="24" height="14" alt="Иконка ВКонтакте">
             </a>
           </li>
           <li class="footer-social-item">
-            <a class="button" href="#">
+            <a class="button button-telegram" href="#">
               <span class="visually-hidden">Телеграм</span>
               <img src="images/icon-telegram.svg" width="18" height="16" alt="Иконка Телеграм">
             </a>
           </li>
           <li class="footer-social-item">
-            <a class="button" href="#">
+            <a class="button button-youtube" href="#">
               <span class="visually-hidden">Ютуб</span>
               <img src="images/icon-youtube.svg" width="22" height="17" alt="Иконка Ютуб">
             </a>
