@@ -39,8 +39,8 @@
             </span>
           </li>
         </ul>
-        <a class="button" href="#">
-          <span class="button-title button-navigation-user">Хочу сюда!</span>
+        <a class="button button-navigation-user" href="#">
+          <span class="button-title  ">Хочу сюда!</span>
         </a>
       </nav>
     </header>
@@ -60,9 +60,9 @@
       </ul>
     </header>
     <section class="choice-hotels">
-      <div class="choice-infrastructure-common">
+    <form class="choice-infrastructure-common">
       <h2 class="choice-infrastructure">Инфраструктура:</h2>
-          <form class="choice-infrastructure-filter">
+          <div class="choice-infrastructure-filter">
             <label class="control">
               <input class="control-input" type="checkbox" name="pool">
               Бассейн
@@ -75,10 +75,9 @@
               <input class="control-input" type="checkbox" name="wi-fi">
               Wi-Fi
             </label>
-          </form>
-        </div>
+          </div>
       <h2 class="choice-type-houses">Тип Жилья:</h2>
-           <form class="choice-type-houses-filter">
+           <div class="choice-type-houses-filter">
             <label class="control">
               <input class="control-input" type="radio" name="type-houses">
               Гостиница
@@ -91,9 +90,9 @@
                <input class="control-input" type="radio" name="type-houses">
                Апартаменты
             </label>
-           </form>
+           </div>
       <h2 class="price">Стоимость, ₽:</h2>
-        <form class="price-filter">
+        <div class="price-filter">
         <label class="visually-hidden">
           <input class="control-input" type="text" placeholder="0 от">
           Стоимость от
@@ -102,7 +101,7 @@
           <input class="control-input" type="text" placeholder="9000 до">
           Стоимость до
         </label>
-        </form>
+        </div>
         <div class="choice-price-slider">
           <button class="button visually-hidden" type="submit" >Стоимость от</button>
           <button class="button visually-hidden" type="submit"> Стоимость до</button>
@@ -113,15 +112,17 @@
         <div class="without-background">
         <button class="button" type="submit">Сбросить</button>
       </div>
+    </form>
+  </div>
     </section>
-    </div>
-    <section class="catalog-hotel">
+      <section class="catalog-hotel">
+      <div class="catalog-sotring">
       <h2 class="catalog-hotel-search">Найдено гостиниц: 38</h2>
+      <div class="show">
       <select class="select-control" aria-label="Сортировка">
         <option value="cheap" selected>Сначала дешёвое</option>
         <option value="expensive">Сначала дорогое</option>
       </select>
-      <div class="show">
       <a href="#" class="button button-light">
         <span class="visually-hidden">Показать таблицей</span>
         <img src="images/icon-table.svg" width="16" height="14" alt="Иконка таблицы">
@@ -134,6 +135,7 @@
         <span class="visually-hidden">Показать список</span>
         <img src="images/icon-list.svg" width="16" height="14" alt="Иконка список">
       </a>
+    </div>
     </div>
       <ul class="hotel-list">
         <li class="hotel-card">
