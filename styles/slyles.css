@@ -797,7 +797,7 @@ body {
   padding: 0;
 }
 
-.button-another {
+.button-apply {
   display: block;
   font-weight: 700;
   font-size: 16px;
@@ -810,16 +810,30 @@ body {
   color: #FFFFFF;
   width: 130px;
   height: 20px;
-  padding: 14px 15px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
 
 }
 
-.without-background button {
+.without-background {
+  display: block;
   color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-  background: inherit;
+  background-color: inherit;
+  width: 65px;
+  min-height: 20px;
+  padding: 0;
+
+
 }
 
 .catalog-sotring {
@@ -988,9 +1002,12 @@ body {
   text-transform: uppercase;
   background-color: #756157;
   border-radius: 4px;
-  width: 140px;
-  height: 37px;
-  padding: 0;
+  width: 110px;
+  min-height: 20px;
+  padding-top: 9px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: ;
   margin-top: 0;
   margin-bottom: 16px;
   margin-left: 20px;
@@ -1004,7 +1021,8 @@ body {
 
 }
 
-.button-another {
+
+.button-remember {
   display: block;
   font-weight: 700;
   font-size: 16px;
@@ -1014,25 +1032,32 @@ body {
   text-align: center;
   text-transform: uppercase;
   background-color: #82B3D3;
-  padding: 0;
+  width: 110px;
+  min-height: 20px;
+  padding-top: 9px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-top: 0;
   margin-bottom: 16px;
   margin-left: 0;
   margin-right: 20px;
+  box-sizing: border-box;
 }
+
 
 .hotel-rating-image {
   display: block;
   margin-left: 20px;
 }
 
-.hotel-rating {
+.button-hotel-rating {
   display: block;
   width: 95px;
   min-height: 20px;
   padding-top: 9px;
   padding-bottom: 8px;
-  padding-left: 20px;
+  padding-left: 23px;
   padding-right: 22px;
   margin-right: 20px;
   margin-top: 0;
