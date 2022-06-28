@@ -60,6 +60,7 @@
     </header>
     <section class="choice-hotels">
     <form class="choice-infrastructure-common">
+      <div class="infrastructure-and-title">
       <h2 class="choice-infrastructure">Инфраструктура:</h2>
           <div class="choice-infrastructure-filter">
             <label class="control">
@@ -75,6 +76,8 @@
               Wi-Fi
             </label>
           </div>
+        </div>
+        <div class="houses-and-title">
       <h2 class="choice-type-houses">Тип Жилья:</h2>
            <div class="choice-type-houses-filter">
             <label class="control">
@@ -90,6 +93,8 @@
                Апартаменты
             </label>
            </div>
+          </div>
+          <div class="price-and-title">
       <h2 class="price">Стоимость, ₽:</h2>
         <div class="price-filter">
         <label class="visually-hidden">
@@ -105,12 +110,11 @@
           <button class="button visually-hidden" type="submit" >Стоимость от</button>
           <button class="button visually-hidden" type="submit"> Стоимость до</button>
         </div>
-        <div class="button-another">
-        <button class="button" type="submit">Применить</button>
       </div>
-        <div class="without-background">
-        <button class="button" type="submit">Сбросить</button>
-      </div>
+      <div class="apply-and-reset">
+        <button class="button button-apply" type="submit">Применить</button>
+        <button class="button without-background" type="submit">Сбросить</button>
+    </div>
     </form>
   </div>
     </section>
@@ -143,13 +147,14 @@
             alt="Ущелье">
             <h3 class="hotel-card-title">Amara Resort & Spa</h3>
           </a>
+          <div class="hotel-information">
           <span class="hotel-card-type">Гостиница</span>
           <b class="hotel-card-price">От 4000 ₽</b>
           <a class="hotel-card-button button" href="#">подробнее</a>
-          <div class="button-another">
-          <button class="button" type="submit">в избранное</button></div>
+            <button class="button button-remember" type="submit">в избранное</button>
           <img class="hotel-rating-image" src="images/four-stars.svg" width="140" height="37" alt="4 звезды">
-          <span class="hotel-rating"><button class="button" type="submit">Рейтинг:8,5</button></span>
+          <button class="button button-hotel-rating" type="submit">Рейтинг:8,5</button>
+        </div>
         </li>
         <li class="hotel-card">
           <a class="hotel-card-link" href="#">
@@ -157,27 +162,29 @@
             alt="Горы на фоне радуги">
             <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
           </a>
+          <div class="hotel-information">
           <span class="hotel-card-type">Гостиница</span>
           <b class="hotel-card-price">От 5000 ₽</b>
           <a class="hotel-card-button button" href="#">подробнее</a>
-          <div class="button-another">
-          <button class="button" type="submit">в избранном</button></div>
+          <button class="button button-remember" type="submit">в избранном</button>
           <img class="hotel-rating-image" src="images/four-stars.svg" width="140" height="37" alt="4 звезды">
-          <span class="hotel-rating"><button class="button" type="submit">Рейтинг:9,2</button></span>
+          <button class="button button-hotel-rating" type="submit">Рейтинг:9,2</button>
+        </div>
         </li>
-        <div class="hotel-card">
+        <li class="hotel-card">
           <a class="hotel-card-link" href="#">
             <img class="hotel-card-image" src="images/hotel-desert-quail-inn.jpg" width="300" height="211"
              alt="Горы на фоне голубого неба">
             <h3 class="hotel-card-title">Desert Quail Inn</h3>
           </a>
+          <div class="hotel-information">
           <span class="hotel-card-type">Гостиница</span>
           <b class="hotel-card-price">От 2500 ₽</b>
           <a class="hotel-card-button button" href="#">подробнее</a>
-          <div class="button-another">
-          <button class="button" type="submit">в избранное</button></div>
+          <button class="button button-remember" type="submit">в избранное</button>
           <img class="hotel-rating-image" src="images/three-stars.svg" width="140" height="37" alt="3 звезды">
-          <span class="hotel-rating"><button class="button" type="submit">Рейтинг:6,9</button></span>
+          <button class="button button-hotel-rating" type="submit">Рейтинг:6,9</button>
+        </div>
         </li>
         <li class="hotel-card">
           <a class="hotel-card-link" href="#">
@@ -185,13 +192,14 @@
              alt="Горы на фоне звездного неба">
             <h3 class="hotel-card-title">GreenTree Inn</h3>
           </a>
+          <div class="hotel-information">
           <span class="hotel-card-type">Гостиница</span>
           <b class="hotel-card-price">От 1500 ₽</b>
           <a class="hotel-card-button button" href="#">подробнее</a>
-          <div class="button-another">
-          <button class="button" type="submit">в избранное</button></div>
+          <button class="button button-remember" type="submit">в избранное</button>
           <img class="hotel-rating-image" src="images/two-stars.svg" width="140" height="37" alt="2 звезды">
-          <span class="hotel-rating"><button class="button" type="submit">Рейтинг:5,0</button></span>
+          <button class="button button-hotel-rating" type="submit">Рейтинг:5,0</button>
+        </div>
         </li>
       </ul>
       <div class="pagination-and-number-hotels-page">
